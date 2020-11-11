@@ -12,5 +12,5 @@ cron { 'run-puppet':
 
 file { 'test':
   path    => '/tmp/hello.txt',
-  content => 'goodbye cruel world',
+  content => "goodbye cruel world\n",
 }
